@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Light" parent="ActivityTheme.Primary.Base.Light"/>
+
+    <style name="Dark" parent="ActivityTheme.Primary.Base.Dark"/>
+
+    <!-- Light base activity theme -->
+    <style name="ActivityTheme.Primary.Base.Light" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#fff</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">#000</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="primaryTextColor">@color/black</item>
+        <item name="secondaryTextColor">#AAAAAA</item>
+        <item name="backgroundCardColor">#FFFF</item>
+        <item name="dividerColor">@color/black</item>
+        <item name="bgColor">@color/white</item>
+        <item name="bgColorSecondary">#DBDBDB</item>
+        <item name="seedBgColor">#bfbfbf</item>
+    </style>
+
+    <style name="ActivityTheme.Primary.Base.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="bgColor">@color/black</item>
+        <item name="bgColorSecondary">@color/dark_gray</item>
+        <item name="primaryTextColor">@color/white</item>
+        <item name="secondaryTextColor">#bfbfbf</item>
+        <item name="backgroundCardColor">@color/dark_gray</item>
+        <item name="dividerColor">@color/white</item>
+        <item name="seedBgColor">@color/dark_gray</item>
+    </style>
+
+</resources>
